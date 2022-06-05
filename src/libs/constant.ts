@@ -1,3 +1,3 @@
 export const config = {
-  apiUrl: `http://localhost:4000`,
+  apiUrl: `https://chat-service-kaloz.herokuapp.com`,
 };

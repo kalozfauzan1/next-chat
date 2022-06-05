@@ -7,4 +7,4 @@ export const config = {
   imagekitPublicKey: process.env.NEXT_PUBLIC_IMAGEKIT_PUBLIC_KEY,
   imagekitEndpointUrl: process.env.NEXT_PUBLIC_IMAGEKIT_ENDPOINT_URL,
   appEnv: process.env.NEXT_PUBLIC_APP_ENV,
-}
+};

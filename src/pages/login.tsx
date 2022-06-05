@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { useRouter } from 'next/router';
 
 import styles from '@/styles/Login.module.scss';
 import { useEffect, useState } from 'react';
@@ -8,7 +7,6 @@ import Image from 'next/image';
 
 export default function Login() {
   // const [user, loading, error] = useAuthState(auth);
-  const router = useRouter();
   const [mounted, setMounted] = useState(false);
   const auth = useAuth();
 

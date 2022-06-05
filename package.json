@@ -5,6 +5,9 @@
   "private": true,
   "author": "kaloz",
   "license": "MIT",
+  "engines": {
+    "node": "14.15.5"
+  },
   "keywords": [
     "nextjs",
     "starter",
